@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "reference": "SO-001",
+    "title": "Lindo Sobrado",
+    "address": "Rua Stival, 3000 - Pq. Das Nações - Santo André - SP",
+    "images": [
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358360/cld-sample-5.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358360/cld-sample-4.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358359/cld-sample-3.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358359/cld-sample-2.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358333/sample.jpg"
+    ],
+    "details": {
+      "bedrooms": 4,
+      "suite": 1,
+      "bathrooms": 2,
+      "cars": 2,
+      "price": 500000
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Ultrices neque ornare aenean euismod elementum nisi quis eleifend. Vitae elementum curabitur vitae nunc sed velit. Vitae tortor condimentum lacinia quis. Ut sem viverra aliquet eget sit amet tellus. Eu sem integer vitae justo eget magna. Nulla malesuada pellentesque elit eget gravida. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Tellus orci ac auctor augue. At varius vel pharetra vel turpis nunc eget. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Lacus luctus accumsan tortor posuere ac. Amet commodo nulla facilisi nullam vehicula. Eleifend donec pretium vulputate sapien. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Turpis egestas sed tempus urna et pharetra pharetra massa. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Consequat semper viverra nam libero. Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Arcu non sodales neque sodales ut etiam sit amet. In nisl nisi scelerisque eu. Ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Cursus sit amet dictum sit amet justo donec enim diam. Posuere urna nec tincidunt praesent semper feugiat nibh. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Pellentesque diam volutpat commodo sed. Id aliquet lectus proin nibh nisl condimentum id.",
+    "features": [
+      "Ar Condicionado",
+      "Portão Eletrônico",
+      "Ar Condicionado",
+      "Portão Eletrônico",
+      "Ar Condicionado",
+      "Portão Eletrônico"
+    ]
+  },
+  {
+    "id": 2,
+    "reference": "CA-001",
+    "title": "Linda Casa",
+    "address": "Rua Stival, 3000 - Pq. Das Nações - Santo André - SP",
+    "images": [
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358360/cld-sample-5.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358360/cld-sample-4.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358359/cld-sample-3.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358359/cld-sample-2.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358333/sample.jpg"
+    ],
+    "details": {
+      "bedrooms": 4,
+      "suite": 1,
+      "bathrooms": 2,
+      "cars": 2,
+      "price": 500000
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Ultrices neque ornare aenean euismod elementum nisi quis eleifend. Vitae elementum curabitur vitae nunc sed velit. Vitae tortor condimentum lacinia quis. Ut sem viverra aliquet eget sit amet tellus. Eu sem integer vitae justo eget magna. Nulla malesuada pellentesque elit eget gravida. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Tellus orci ac auctor augue. At varius vel pharetra vel turpis nunc eget. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Lacus luctus accumsan tortor posuere ac. Amet commodo nulla facilisi nullam vehicula. Eleifend donec pretium vulputate sapien. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Turpis egestas sed tempus urna et pharetra pharetra massa. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Consequat semper viverra nam libero. Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Arcu non sodales neque sodales ut etiam sit amet. In nisl nisi scelerisque eu. Ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Cursus sit amet dictum sit amet justo donec enim diam. Posuere urna nec tincidunt praesent semper feugiat nibh. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Pellentesque diam volutpat commodo sed. Id aliquet lectus proin nibh nisl condimentum id.",
+    "features": [
+      "Ar Condicionado",
+      "Portão Eletrônico",
+      "Ar Condicionado",
+      "Portão Eletrônico",
+      "Ar Condicionado",
+      "Portão Eletrônico"
+    ]
+  },
+  {
+    "id": 3,
+    "reference": "AP-001",
+    "title": "Lindo Apartamento",
+    "address": "Rua Stival, 3000 - Pq. Das Nações - Santo André - SP",
+    "images": [
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358360/cld-sample-5.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358360/cld-sample-4.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358359/cld-sample-3.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358359/cld-sample-2.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358333/sample.jpg"
+    ],
+    "details": {
+      "bedrooms": 4,
+      "suite": 1,
+      "bathrooms": 2,
+      "cars": 2,
+      "price": 500000
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Ultrices neque ornare aenean euismod elementum nisi quis eleifend. Vitae elementum curabitur vitae nunc sed velit. Vitae tortor condimentum lacinia quis. Ut sem viverra aliquet eget sit amet tellus. Eu sem integer vitae justo eget magna. Nulla malesuada pellentesque elit eget gravida. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Tellus orci ac auctor augue. At varius vel pharetra vel turpis nunc eget. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Lacus luctus accumsan tortor posuere ac. Amet commodo nulla facilisi nullam vehicula. Eleifend donec pretium vulputate sapien. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Turpis egestas sed tempus urna et pharetra pharetra massa. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Consequat semper viverra nam libero. Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Arcu non sodales neque sodales ut etiam sit amet. In nisl nisi scelerisque eu. Ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Cursus sit amet dictum sit amet justo donec enim diam. Posuere urna nec tincidunt praesent semper feugiat nibh. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Pellentesque diam volutpat commodo sed. Id aliquet lectus proin nibh nisl condimentum id.",
+    "features": [
+      "Ar Condicionado",
+      "Portão Eletrônico",
+      "Ar Condicionado",
+      "Portão Eletrônico",
+      "Ar Condicionado",
+      "Portão Eletrônico"
+    ]
+  },
+  {
+    "id": 4,
+    "reference": "SO-001",
+    "title": "Lindo Sobrado",
+    "address": "Rua Stival, 3000 - Pq. Das Nações - Santo André - SP",
+    "images": [
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358360/cld-sample-5.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358360/cld-sample-4.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358359/cld-sample-3.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358359/cld-sample-2.jpg",
+      "https://res.cloudinary.com/mbspilari06/image/upload/v1663358333/sample.jpg"
+    ],
+    "details": {
+      "bedrooms": 4,
+      "suite": 1,
+      "bathrooms": 2,
+      "cars": 2,
+      "price": 500000
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Ultrices neque ornare aenean euismod elementum nisi quis eleifend. Vitae elementum curabitur vitae nunc sed velit. Vitae tortor condimentum lacinia quis. Ut sem viverra aliquet eget sit amet tellus. Eu sem integer vitae justo eget magna. Nulla malesuada pellentesque elit eget gravida. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Tellus orci ac auctor augue. At varius vel pharetra vel turpis nunc eget. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Lacus luctus accumsan tortor posuere ac. Amet commodo nulla facilisi nullam vehicula. Eleifend donec pretium vulputate sapien. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Turpis egestas sed tempus urna et pharetra pharetra massa. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Consequat semper viverra nam libero. Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Arcu non sodales neque sodales ut etiam sit amet. In nisl nisi scelerisque eu. Ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Cursus sit amet dictum sit amet justo donec enim diam. Posuere urna nec tincidunt praesent semper feugiat nibh. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Pellentesque diam volutpat commodo sed. Id aliquet lectus proin nibh nisl condimentum id.",
+    "features": [
+      "Ar Condicionado",
+      "Portão Eletrônico",
+      "Ar Condicionado",
+      "Portão Eletrônico",
+      "Ar Condicionado",
+      "Portão Eletrônico"
+    ]
+  }
+]
