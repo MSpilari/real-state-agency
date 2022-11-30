@@ -1,4 +1,15 @@
+import { useState, useEffect } from 'react'
+import { HouseCard } from './HouseCard'
+import apiCall from '../../utils/AllProperties.json'
+import { Properties } from './Houses.types'
+
 const Houses = () => {
+  const [allProperties, setAllProperties] = useState([] as Properties)
+
+  useEffect(() => {
+    setAllProperties(apiCall)
+  }, [])
+
   return (
     <section className="w-full flex flex-col items-center my-10 gap-5">
       <div className="w-28 h-1 bg-gradient-to-r from-yellow-500 to-black" />
@@ -25,6 +36,21 @@ const Houses = () => {
       </div>
 
       {/* Houses List */}
+      <div className="w-full grid grid-cols-2 lg:grid-cols-3 gap-4 items-center justify-items-center">
+        {/* House Card */}
+        {allProperties.map(property => {
+          const { id, images, details, title } = property
+
+          return (
+            <HouseCard
+              key={id}
+              image={images[0]}
+              details={details}
+              title={title}
+            />
+          )
+        })}
+      </div>
     </section>
   )
 }
