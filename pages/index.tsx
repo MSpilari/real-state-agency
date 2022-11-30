@@ -1,4 +1,5 @@
 import { AboutUsCard } from '../src/components/AboutUsCard'
+import { Footer } from '../src/components/Footer'
 import { Houses } from '../src/components/Houses'
 import { Navbar } from '../src/components/Navbar'
 import { WelcomeImg } from '../src/components/WelcomeImg'
@@ -16,6 +17,8 @@ export default function Home() {
       <AboutUsCard />
 
       <Houses />
+
+      <Footer />
     </main>
   )
 }
