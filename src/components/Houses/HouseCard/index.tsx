@@ -1,14 +1,10 @@
 import Image from 'next/image'
 import { FaBath, FaBed, FaCar, FaMoneyBill } from 'react-icons/fa'
+import { currencyFormatter } from '../../../utils/currencyFormatter'
 import { HouseCardProps } from './HouseCard.types'
 
 const HouseCard = ({ image, title, details }: HouseCardProps) => {
   const { price, bathrooms, bedrooms, cars } = details
-
-  const formatter = new Intl.NumberFormat('pt-br', {
-    style: 'currency',
-    currency: 'BRL'
-  })
 
   return (
     <div className="flex flex-col w-36 rounded-2xl bg-white gap-2 overflow-hidden shadow-2xl shadow-black text-sm lg:text-lg 2xsm:w-40 xsm:w-44 md:w-48 lg:w-72 xl:w-96">
@@ -25,7 +21,7 @@ const HouseCard = ({ image, title, details }: HouseCardProps) => {
 
       <h3 className="flex items-center w-full gap-1 px-3 truncate font-semibold">
         <FaMoneyBill className="text-green-500" />
-        {formatter.format(price)}
+        {currencyFormatter(price)}
       </h3>
 
       <ul className="flex items-center justify-evenly w-full gap-5 mb-1">
