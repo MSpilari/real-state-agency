@@ -1,8 +1,12 @@
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
+import { Footer } from '../../src/components/Footer'
 import { singleProperty } from '../../src/components/Houses/Houses.types'
 import { Navbar } from '../../src/components/Navbar'
+import { PropertyDesc } from '../../src/components/PropertyDesc'
+import { PropertyFeatures } from '../../src/components/PropertyFeatures'
 import { PropertyPics } from '../../src/components/PropertyPics'
+import { PropertySuggestions } from '../../src/components/PropertySuggestions'
 import { PropertyTitle } from '../../src/components/PropertyTitle'
 import apiCall from '../../src/utils/AllProperties.json'
 
@@ -32,7 +36,19 @@ const PropertyPage = () => {
 
           <Navbar />
 
-          <PropertyPics images={propertyInfo.images} />
+          <PropertyPics
+            images={propertyInfo.images}
+            details={propertyInfo.details}
+            reference={propertyInfo.reference}
+          />
+
+          <PropertyDesc desc={propertyInfo.description} />
+
+          <PropertyFeatures features={propertyInfo.features} />
+
+          <PropertySuggestions />
+
+          <Footer />
         </>
       )}
     </main>
