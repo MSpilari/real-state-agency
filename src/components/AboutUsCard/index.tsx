@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import meetingImg from '../../assets/meeting.jpg'
+import { TitleH1 } from '../TitleH1'
 import { TopRightRoundedButton } from '../TopRightRoundedButton'
 
 const AboutUsCard = () => {
@@ -14,9 +15,7 @@ const AboutUsCard = () => {
       />
 
       <div className="flex flex-col items-center lg:items-start gap-5">
-        <div className="w-28 h-1 bg-gradient-to-r from-yellow-500 to-black" />
-
-        <h1 className="text-2xl lg:text-4xl font-bold">Você em 1º lugar</h1>
+        <TitleH1 title="Você em 1º lugar" />
 
         <h3 className="px-8 md:px-24 text-sm lg:pl-0 lg:pr-10 xl:pr-96">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { HouseCard } from './HouseCard'
 import apiCall from '../../utils/AllProperties.json'
 import { Properties, FiltersProps } from './Houses.types'
+import { TitleH1 } from '../TitleH1'
 
 const Houses = () => {
   const [allProperties, setAllProperties] = useState([] as Properties)
@@ -38,11 +39,7 @@ const Houses = () => {
 
   return (
     <section className="w-full flex flex-col items-center my-10 gap-5">
-      <div className="w-28 h-1 bg-gradient-to-r from-yellow-500 to-black" />
-
-      <h1 className="text-2xl lg:text-4xl font-bold text-center">
-        Encontre seu próximo local para viver.
-      </h1>
+      <TitleH1 title="Encontre seu próximo local para viver." />
 
       {/* Searching Bar */}
       <div className="w-full py-3 flex items-center justify-center gap-4">
