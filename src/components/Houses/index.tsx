@@ -34,7 +34,15 @@ const Houses = () => {
   })
 
   useEffect(() => {
-    setAllProperties(apiCall)
+    const fetchData = async () => {
+      const res = await fetch('http://localhost:3000/api/allproperties')
+
+      const data = await res.json()
+
+      return setAllProperties(data)
+    }
+
+    fetchData()
   }, [])
 
   return (
