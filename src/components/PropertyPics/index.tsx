@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { useRef, useState } from 'react'
-import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa'
-import { scrollingDiv } from '../../utils/scrollingDiv'
+import { SliderArrows } from '../SliderArrows'
 import { PropertyDetails } from './PropertyDetails'
 import { PropertyPicsType } from './PropertyPics.types'
 
@@ -22,14 +21,7 @@ const PropertyPics = ({ images, details, reference }: PropertyPicsType) => {
         />
 
         <div className="w-full flex flex-col items-center gap-3 md:w-96 lg:w-[35rem] xl:w-[40rem]">
-          <div className="flex gap-3 self-end text-lg">
-            <button onClick={() => scrollingDiv(sliderDivRef, -100)}>
-              <FaArrowAltCircleLeft />
-            </button>
-            <button onClick={() => scrollingDiv(sliderDivRef, 100)}>
-              <FaArrowAltCircleRight />
-            </button>
-          </div>
+          <SliderArrows sliderElement={sliderDivRef} />
 
           <div ref={sliderDivRef} className="flex gap-4 overflow-hidden">
             {images.map(imageUrl => (
