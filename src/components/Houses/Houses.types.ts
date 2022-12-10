@@ -27,3 +27,8 @@ export type FiltersProps = {
   type: string | null
   location: string | null
 }
+
+export type singlePropertyAPICall = {
+  singleProperty: singleProperty
+  commonProperties: Properties
+}
