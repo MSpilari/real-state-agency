@@ -1,9 +1,4 @@
-import type { ReactNode } from 'react'
-
-type TRRoundedButtonProps = {
-  children: ReactNode
-  extraStyles?: string
-}
+import { TRRoundedButtonProps } from './TRRoundedButton.types'
 
 const TopRightRoundedButton = ({
   children,
