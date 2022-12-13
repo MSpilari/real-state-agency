@@ -3,7 +3,8 @@ import Link from 'next/link'
 import {
   AiOutlineArrowRight,
   AiFillInstagram,
-  AiOutlineWhatsApp
+  AiOutlineWhatsApp,
+  AiFillLock
 } from 'react-icons/ai'
 import logoDesktop from '../../assets/logoDesktop.png'
 import { TopRightRoundedButton } from '../TopRightRoundedButton'
@@ -22,6 +23,12 @@ const Navbar = () => {
         <ul className="flex items-center gap-3">
           <li>
             <Link href={'/'}>Início</Link>
+          </li>
+
+          <li>
+            <Link href={'/login'}>
+              <AiFillLock />
+            </Link>
           </li>
 
           <li>
