@@ -29,7 +29,7 @@ const PropertySuggestions = ({ suggestions }: PropertySuggestionsTypes) => {
 
               return (
                 <li key={id}>
-                  <Link href={`imoveis/${id}`}>
+                  <Link href={`${id}`}>
                     <HouseCard
                       title={title}
                       details={details}
