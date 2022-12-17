@@ -3,7 +3,7 @@ import { ErrorAlert } from '../../01_Atoms/ErrorAlert'
 import { singleProperty } from '../Houses/types'
 import { Input } from '../../01_Atoms/Input'
 import { TextArea } from '../../01_Atoms/TextArea'
-import { formFields } from './formFields'
+import { inputFields } from './inputFields'
 
 const AddPropertyForm = () => {
   const {
@@ -27,7 +27,7 @@ const AddPropertyForm = () => {
 
       <ErrorAlert errorObj={errors} />
 
-      {formFields(errors).map((field, index) => {
+      {inputFields(errors).map((field, index) => {
         return (
           <Input
             label={field.label}

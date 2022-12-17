@@ -1,7 +1,7 @@
 import { FieldErrorsImpl } from 'react-hook-form'
-import { singleProperty } from '../Houses/Houses.types'
+import { singleProperty } from '../Houses/types'
 
-const formFields = (errors: FieldErrorsImpl<singleProperty>) => [
+const inputFields = (errors: FieldErrorsImpl<singleProperty>) => [
   {
     label: 'Referência:',
     error: errors.reference,
@@ -71,4 +71,4 @@ const formFields = (errors: FieldErrorsImpl<singleProperty>) => [
   }
 ]
 
-export { formFields }
+export { inputFields }
