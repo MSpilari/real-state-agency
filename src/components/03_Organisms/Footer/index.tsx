@@ -5,7 +5,7 @@ import {
   AiOutlineWhatsApp
 } from 'react-icons/ai'
 import { TopRightRoundedButton } from '../../01_Atoms/TopRightRoundedButton'
-import logo from '../../assets/logoDesktop.png'
+import logo from '../../../assets/logoDesktop.png'
 
 const Footer = () => {
   return (

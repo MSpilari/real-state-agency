@@ -6,7 +6,7 @@ import {
   AiOutlineWhatsApp,
   AiFillLock
 } from 'react-icons/ai'
-import logoDesktop from '../../assets/logoDesktop.png'
+import logoDesktop from '../../../assets/logoDesktop.png'
 import { TopRightRoundedButton } from '../../01_Atoms/TopRightRoundedButton'
 
 const Navbar = () => {

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import welcomeImg from '../../assets/welcome.png'
+import welcomeImg from '../../../assets/welcome.png'
 
 const WelcomeImg = () => {
   return (

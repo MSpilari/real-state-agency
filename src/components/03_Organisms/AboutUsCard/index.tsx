@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { AiOutlineArrowRight } from 'react-icons/ai'
-import meetingImg from '../../assets/meeting.jpg'
+import meetingImg from '../../../assets/meeting.jpg'
 import { TitleH1 } from '../../01_Atoms/H1WithBar'
 import { TopRightRoundedButton } from '../../01_Atoms/TopRightRoundedButton'
 

@@ -1,6 +1,6 @@
 import { SubmitHandler, useForm } from 'react-hook-form'
 import { ErrorAlert } from '../../01_Atoms/ErrorAlert'
-import { singleProperty } from '../Houses/Houses.types'
+import { singleProperty } from '../Houses/types'
 import { Input } from '../../01_Atoms/Input'
 import { TextArea } from '../../01_Atoms/TextArea'
 import { formFields } from './formFields'
