@@ -1,66 +1,56 @@
-import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
+import { GetServerSideProps } from 'next'
+import { PropertyDesc } from '../../src/components/02_Molecules/PropertyDesc'
+import { PropertyFeatures } from '../../src/components/02_Molecules/PropertyFeatures'
+import { PropertyTitle } from '../../src/components/02_Molecules/PropertyTitle'
 import { Footer } from '../../src/components/03_Organisms/Footer'
 import { singlePropertyAPICall } from '../../src/components/03_Organisms/Houses/types'
 import { Navbar } from '../../src/components/03_Organisms/Navbar'
-import { PropertyDesc } from '../../src/components/02_Molecules/PropertyDesc'
-import { PropertyFeatures } from '../../src/components/02_Molecules/PropertyFeatures'
 import { PropertyPics } from '../../src/components/03_Organisms/PropertyPics'
 import { PropertySuggestions } from '../../src/components/03_Organisms/PropertySuggestions'
-import { PropertyTitle } from '../../src/components/02_Molecules/PropertyTitle'
+import { CtxParams } from '../../src/interfaces/api/propId'
+import { getFetchData } from '../../src/services/getFetchData'
 
-const PropertyPage = () => {
-  const router = useRouter()
-  const [propertyInfo, setPropertyInfo] = useState({} as singlePropertyAPICall)
-  const [loading, setLoading] = useState(true)
-
-  const { propId } = router.query
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch(`http://localhost:3000/api/property/${propId}`)
-
-      const data = await res.json()
-
-      setPropertyInfo(data)
-
-      return setLoading(false)
-    }
-
-    fetchData()
-  }, [propId])
-
+const PropertyPage = ({
+  singleProperty,
+  commonProperties
+}: singlePropertyAPICall) => {
   return (
     <main className="h-full overflow-x-hidden flex flex-col">
-      {loading ? (
-        <div>Loading</div>
-      ) : (
-        <>
-          <PropertyTitle
-            title={propertyInfo.singleProperty.title}
-            price={propertyInfo.singleProperty.details.price}
-            address={propertyInfo.singleProperty.address}
-          />
+      <PropertyTitle
+        title={singleProperty.title}
+        price={singleProperty.details.price}
+        address={singleProperty.address}
+      />
 
-          <Navbar />
+      <Navbar />
 
-          <PropertyPics
-            images={propertyInfo.singleProperty.images}
-            details={propertyInfo.singleProperty.details}
-            reference={propertyInfo.singleProperty.reference}
-          />
+      <PropertyPics
+        images={singleProperty.images}
+        details={singleProperty.details}
+        reference={singleProperty.reference}
+      />
 
-          <PropertyDesc desc={propertyInfo.singleProperty.description} />
+      <PropertyDesc desc={singleProperty.description} />
 
-          <PropertyFeatures features={propertyInfo.singleProperty.features} />
+      <PropertyFeatures features={singleProperty.features} />
 
-          <PropertySuggestions suggestions={propertyInfo.commonProperties} />
+      <PropertySuggestions suggestions={commonProperties} />
 
-          <Footer />
-        </>
-      )}
+      <Footer />
     </main>
   )
+}
+
+export const getServerSideProps: GetServerSideProps<{
+  props: singlePropertyAPICall
+}> = async context => {
+  const { propId } = context.params as CtxParams
+
+  const props = await getFetchData(
+    `${process.env.CURRENT_URL}/api/property/${propId}`
+  )
+
+  return { props }
 }
 
 export default PropertyPage
