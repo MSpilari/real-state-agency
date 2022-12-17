@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
-import type { singlePropertyAPICall } from '../../../src/components/Houses/Houses.types'
+import type { singlePropertyAPICall } from '../../../src/components/03_Organisms/Houses/Houses.types'
 import AllProperties from '../../../src/utils/AllProperties.json'
 
 export default function handler(

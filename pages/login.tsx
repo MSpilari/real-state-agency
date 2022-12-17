@@ -1,6 +1,6 @@
-import { Footer } from '../src/components/Footer'
-import { LoginForm } from '../src/components/LoginForm'
-import { Navbar } from '../src/components/Navbar'
+import { Footer } from '../src/components/03_Organisms/Footer'
+import { LoginForm } from '../src/components/03_Organisms/LoginForm'
+import { Navbar } from '../src/components/03_Organisms/Navbar'
 
 export default function Login() {
   return (

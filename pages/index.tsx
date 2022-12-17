@@ -1,9 +1,9 @@
-import { AboutUsCard } from '../src/components/AboutUsCard'
-import { Footer } from '../src/components/Footer'
-import { Houses } from '../src/components/Houses'
-import { Navbar } from '../src/components/Navbar'
-import { WelcomeImg } from '../src/components/WelcomeImg'
-import { WelcomeTxt } from '../src/components/WelcomeTxt'
+import { AboutUsCard } from '../src/components/03_Organisms/AboutUsCard'
+import { Footer } from '../src/components/03_Organisms/Footer'
+import { Houses } from '../src/components/03_Organisms/Houses'
+import { Navbar } from '../src/components/03_Organisms/Navbar'
+import { WelcomeImg } from '../src/components/02_Molecules/WelcomeImg'
+import { WelcomeTxt } from '../src/components/02_Molecules/WelcomeTxt'
 
 export default function Home() {
   return (

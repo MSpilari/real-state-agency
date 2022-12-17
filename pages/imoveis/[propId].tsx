@@ -1,13 +1,13 @@
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
-import { Footer } from '../../src/components/Footer'
-import { singlePropertyAPICall } from '../../src/components/Houses/Houses.types'
-import { Navbar } from '../../src/components/Navbar'
-import { PropertyDesc } from '../../src/components/PropertyDesc'
-import { PropertyFeatures } from '../../src/components/PropertyFeatures'
-import { PropertyPics } from '../../src/components/PropertyPics'
-import { PropertySuggestions } from '../../src/components/PropertySuggestions'
-import { PropertyTitle } from '../../src/components/PropertyTitle'
+import { Footer } from '../../src/components/03_Organisms/Footer'
+import { singlePropertyAPICall } from '../../src/components/03_Organisms/Houses/types'
+import { Navbar } from '../../src/components/03_Organisms/Navbar'
+import { PropertyDesc } from '../../src/components/02_Molecules/PropertyDesc'
+import { PropertyFeatures } from '../../src/components/02_Molecules/PropertyFeatures'
+import { PropertyPics } from '../../src/components/03_Organisms/PropertyPics'
+import { PropertySuggestions } from '../../src/components/03_Organisms/PropertySuggestions'
+import { PropertyTitle } from '../../src/components/02_Molecules/PropertyTitle'
 
 const PropertyPage = () => {
   const router = useRouter()
