@@ -24,7 +24,10 @@ const Houses = () => {
   })
 
   useEffect(() => {
-    getFetchData('http://localhost:3000/api/allproperties', setAllProperties)
+    getFetchData(
+      `${process.env.CURRENT_URL}/api/allproperties`,
+      setAllProperties
+    )
   }, [])
 
   return (
