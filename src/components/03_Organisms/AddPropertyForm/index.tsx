@@ -27,6 +27,8 @@ const AddPropertyForm = () => {
 
       <ErrorAlert errorObj={errors} />
 
+      <input type="file" multiple {...register('images', { required: true })} />
+
       {inputFields(errors).map((field, index) => {
         return (
           <Input
